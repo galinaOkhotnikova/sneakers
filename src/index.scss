@@ -182,7 +182,7 @@ header {
     border-radius: 18px;
     height: 55px;
     cursor: pointer;
-    transition: backgroung 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
     
     &:hover {
         background: lighten($color: #9DD558, $amount: 5%);

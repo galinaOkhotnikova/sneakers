@@ -14,8 +14,8 @@ function Drawer({onClose, onRemove, items = [], opened}) {
 
     const onClickOrder = async () => {
         try {
-            const {data} = await axios.post('http://localhost:3000/orders', {items: busketItems});
-            await axios.put('http://localhost:3000/busket', []);
+            const {data} = await axios.post('https://my-json-server.typicode.com/galinaOkhotnikova/sneakers_database/orders', {items: busketItems});
+            await axios.put('https://my-json-server.typicode.com/galinaOkhotnikova/sneakers_database/busket', []);
             setOrderId(data.id);
             setIsOrderComplete(true);
             setBusketItems([]);

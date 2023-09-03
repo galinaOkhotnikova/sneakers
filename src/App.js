@@ -22,9 +22,9 @@ function App() {
     React.useEffect(() => {
         async function fetchData() {
             setIsLoading(true);
-            const busketResponse = await axios.get('https://my-json-server.typicode.com/galinaOkhotnikova/sneakrs_database/busket');
-            const favResponse = await axios.get('https://my-json-server.typicode.com/galinaOkhotnikova/sneakrs_database/favorites');
-            const itemsResponse = await axios.get('https://my-json-server.typicode.com/galinaOkhotnikova/sneakrs_database/items');
+            const busketResponse = await axios.get('https://my-json-server.typicode.com/galinaOkhotnikova/sneakers_database/busket');
+            const favResponse = await axios.get('https://my-json-server.typicode.com/galinaOkhotnikova/sneakers_database/favorites');
+            const itemsResponse = await axios.get('https://my-json-server.typicode.com/galinaOkhotnikova/sneakers_database/items');
 
             setIsLoading(false);
             
