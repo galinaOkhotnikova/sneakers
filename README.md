@@ -1,4 +1,4 @@
-# Sneakers
+# Sneakers (Требуется исправление багов по запросу на удаление)
 
 1. run npm i && npm start
 2. go to http://localhost:3000/
